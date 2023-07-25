@@ -19,6 +19,9 @@ import asyncio
 import sys
 import os
 
+
+print('Avviato')
+
 if not sys.implementation.version[:3] >= (3, 7, 9):  # Ensure user is on correct version of Python
     print("You are not on a supported version of Python. Please update to version 3.7.9 or later.")
     exit(1)
